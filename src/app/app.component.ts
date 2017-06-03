@@ -1,7 +1,23 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  selector: 'demo-app',
+  templateUrl: `app/app.component.html`  
 })
-export class AppComponent  { name = 'Starting angular js 2'; }
+
+export class AppComponent  { 
+   
+    appTitle: String = 'Welcome';
+    appStatus: boolean = false;
+    appList: any[]=[{
+      "ID":"1",
+      "Name":"One"
+    },
+    {
+      "ID":"2",
+      "Name":"Two"
+    }];
+        
+ }
+
+
