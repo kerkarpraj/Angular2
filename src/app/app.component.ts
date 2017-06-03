@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `<h1>Hello {{name}}</h1>`,
 })
-export class AppComponent  { name = 'Angular Js2'; }
+export class AppComponent  { name = 'Starting angular js 2'; }
